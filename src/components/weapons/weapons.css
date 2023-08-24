@@ -1,0 +1,29 @@
+.weapon-div{
+    border: 1px solid #fd6058;
+    border-radius: 34px;
+    padding: 10px;
+    background-image: linear-gradient(to top, #30161c, #30161c, #30161c, #30161d, #30161d, #30161d, #30161d, #30161d, #30161d, #30161d, #30161e, #30161e);;
+    transition: all ease-in-out .3s; 
+    transform: scale(0.8);
+}
+
+.weapon-div:hover{
+    box-shadow: 0 0 5px #fd6058;
+    transform: scale(1.0);
+}
+
+.weapon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.1rem;
+    margin-top: 2rem;
+}
+
+.description{
+    padding-left: 10px;
+    color: #ebeb39;
+   
+}
+
+

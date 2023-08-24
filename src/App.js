@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Weapons from './components/weapons/weapons';
+import Cyberwares from './components/cyberware/cyberware';
+import HacksAndDaemons from './components/hacks/hacks';
+import Logo from './components/logo/logo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Logo />
+      <div className='list-container'>
+      <Weapons  />
+      <Cyberwares className='cyberwares-div' />
+      <HacksAndDaemons className='hacks-div'/>
+      </div>
     </div>
   );
 }
