@@ -9,9 +9,18 @@ function App() {
     <div className="App">
       <Logo />
       <div className='list-container'>
+        <div className='div'>
+          <h2>Armamento</h2>
       <Weapons  />
+      </div>
+      <div className='div'>
+        <h2>Implantes</h2>
       <Cyberwares className='cyberwares-div' />
+      </div>
+      <div className='div'>
+        <h2>Hacks</h2>
       <HacksAndDaemons className='hacks-div'/>
+      </div>
       </div>
     </div>
   );

@@ -33,6 +33,10 @@ h2{
   font-size: 20px;
 }
 
+.div h2{
+  padding-left: 4rem;
+}
+
 strong{
   color: #5ddbe3;
   font-weight: 300;

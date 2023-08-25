@@ -1,4 +1,4 @@
-.weapon-div{
+.cyberware-div{
     border: 1px solid #fd6058;
     border-radius: 34px;
     padding: 10px;
@@ -7,15 +7,15 @@
     transform: scale(0.8);
 }
 
-.weapon-div:hover{
+.cyberware-div:hover{
     box-shadow: 0 0 5px #fd6058;
     transform: scale(1.0);
 }
 
-.weapon-container{
+.cyberware-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding-top: 2rem;
     gap: 0.1rem;
     margin-top: 2rem;
 }
@@ -23,7 +23,6 @@
 .description{
     padding-left: 10px;
     color: #ebeb39;
-   text-transform: uppercase;
+    text-transform: uppercase;
+   
 }
-
-
