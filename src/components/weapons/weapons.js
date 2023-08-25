@@ -456,6 +456,50 @@ const Weapons = () => {
     
   ];
 
+  const healthItems = [
+    {
+      name: 'Revitalizante MK.I',
+      special: 'Cura 1d4 de vida'
+    },
+    {
+      name: 'Revitalizante MK.II',
+      special: 'Cura 1d6 de vida'
+    },
+    {
+      name: 'Revitalizante MK.III',
+      special: 'Cura 1d8 de vida'
+    },
+    {
+      name: 'Revitalizante MK.IV',
+      special: 'Cura 1d10+4 de vida'
+    },
+    {
+      name: 'Desfibrilador neural',
+      special: 'Abaixo de 50% de humanidade garante sair do estado inconsciente sem ajuda de um medicânico'
+    },
+    {
+      name: 'Adrenalizador Injetável',
+      special: '+2 em reflexos durante 3 turnos'
+    },
+    {
+      name: 'Energy Jungle',
+      special: 'Por 2 turnos torna-se impossível de ser atordoado.'
+    },
+    {
+      name: 'Soro cyberantiofídico',
+      special: 'Remove efeitos de envenenamento'
+    },
+    {
+      name: 'Loção Termal Militech',
+      special: 'Remove efeitos de queimadura'
+    },
+    {
+      name: 'Suco LookAtHimCompany',
+      special: '+2 em feitos de força e briga por 3 turnos'
+    },
+
+  ]
+
   return (
     <div className="weapon-container">
       <WeaponList title="Pistolas" weapons={pistols} />
@@ -468,6 +512,7 @@ const Weapons = () => {
       <WeaponList title="Rifles de Assalto" weapons={assaultRifles} />
       <WeaponList title="Armas brancas" weapons={meleeWeapons} />
       <WeaponList title="Arremessáveis" weapons={throwableWeapons} />
+      <WeaponList title="Consumívels" weapons={healthItems} />
       
     </div>
   );
