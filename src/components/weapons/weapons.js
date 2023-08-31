@@ -501,7 +501,7 @@ const Weapons = () => {
   ]
 
   return (
-    <div className="weapon-container">
+    <div className="container">
       <WeaponList title="Pistolas" weapons={pistols} />
       <WeaponList title="Revólveres" weapons={revolvers} />
       <WeaponList title="Submetralhadoras" weapons={lightMachineGuns} />

@@ -146,7 +146,7 @@ const HacksAndDaemons = () => {
   ;
 
   return (
-    <div className='hacks-container'>
+    <div className='container'>
       <HackList title="Hacks Rápidos" hacks={quickHacks} />
       <HackList title=" Daemons" hacks= {Daemons} />
     </div>
